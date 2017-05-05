@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10276111EBBEF650019C0F3 /* masterTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10276101EBBEF650019C0F3 /* masterTabVC.swift */; };
+		D12C59771EBB3A0D008E9CB4 /* CommunityTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C59761EBB3A0D008E9CB4 /* CommunityTabVC.swift */; };
+		D12C59791EBB3A52008E9CB4 /* SearchTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12C59781EBB3A52008E9CB4 /* SearchTabVC.swift */; };
+		D168FBEC1EBB1CEB001648AF /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168FBEB1EBB1CEB001648AF /* MatchVC.swift */; };
+		D168FBEE1EBB1D09001648AF /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168FBED1EBB1D09001648AF /* SettingsVC.swift */; };
+		D168FBF01EBB1D30001648AF /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168FBEF1EBB1D30001648AF /* MyProfileVC.swift */; };
+		D168FBF21EBB1D85001648AF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168FBF11EBB1D85001648AF /* FeedVC.swift */; };
+		D168FBF41EBB1D98001648AF /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168FBF31EBB1D98001648AF /* GroupsVC.swift */; };
+		D168FBF61EBB1DA7001648AF /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168FBF51EBB1DA7001648AF /* EventsVC.swift */; };
+		D19734401EBC096900C01309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D197343F1EBC096900C01309 /* Assets.xcassets */; };
 		D1A1F9DD1EA9375D00D2CFE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1F9DC1EA9375D00D2CFE2 /* AppDelegate.swift */; };
-		D1A1F9DF1EA9375D00D2CFE2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1F9DE1EA9375D00D2CFE2 /* FirstViewController.swift */; };
-		D1A1F9E11EA9375D00D2CFE2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1F9E01EA9375D00D2CFE2 /* SecondViewController.swift */; };
 		D1A1F9E41EA9375D00D2CFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A1F9E21EA9375D00D2CFE2 /* Main.storyboard */; };
-		D1A1F9E61EA9375D00D2CFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A1F9E51EA9375D00D2CFE2 /* Assets.xcassets */; };
 		D1A1F9E91EA9375D00D2CFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A1F9E71EA9375D00D2CFE2 /* LaunchScreen.storyboard */; };
 		D1A1F9F41EA9375D00D2CFE2 /* SeroMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1F9F31EA9375D00D2CFE2 /* SeroMatchTests.swift */; };
 		D1A1F9FF1EA9375D00D2CFE2 /* SeroMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A1F9FE1EA9375D00D2CFE2 /* SeroMatchUITests.swift */; };
@@ -35,12 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D10276101EBBEF650019C0F3 /* masterTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masterTabVC.swift; sourceTree = "<group>"; };
+		D12C59761EBB3A0D008E9CB4 /* CommunityTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityTabVC.swift; sourceTree = "<group>"; };
+		D12C59781EBB3A52008E9CB4 /* SearchTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTabVC.swift; sourceTree = "<group>"; };
+		D168FBEB1EBB1CEB001648AF /* MatchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
+		D168FBED1EBB1D09001648AF /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		D168FBEF1EBB1D30001648AF /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		D168FBF11EBB1D85001648AF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		D168FBF31EBB1D98001648AF /* GroupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
+		D168FBF51EBB1DA7001648AF /* EventsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
+		D197343F1EBC096900C01309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A1F9D91EA9375D00D2CFE2 /* SeroMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeroMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A1F9DC1EA9375D00D2CFE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1A1F9DE1EA9375D00D2CFE2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D1A1F9E01EA9375D00D2CFE2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D1A1F9E31EA9375D00D2CFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1A1F9E51EA9375D00D2CFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A1F9E81EA9375D00D2CFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1A1F9EA1EA9375D00D2CFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A1F9EF1EA9375D00D2CFE2 /* SeroMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeroMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,11 +113,18 @@
 		D1A1F9DB1EA9375D00D2CFE2 /* SeroMatch */ = {
 			isa = PBXGroup;
 			children = (
+				D197343F1EBC096900C01309 /* Assets.xcassets */,
 				D1A1F9DC1EA9375D00D2CFE2 /* AppDelegate.swift */,
-				D1A1F9DE1EA9375D00D2CFE2 /* FirstViewController.swift */,
-				D1A1F9E01EA9375D00D2CFE2 /* SecondViewController.swift */,
+				D10276101EBBEF650019C0F3 /* masterTabVC.swift */,
+				D12C59761EBB3A0D008E9CB4 /* CommunityTabVC.swift */,
+				D168FBF11EBB1D85001648AF /* FeedVC.swift */,
+				D168FBF31EBB1D98001648AF /* GroupsVC.swift */,
+				D168FBF51EBB1DA7001648AF /* EventsVC.swift */,
+				D12C59781EBB3A52008E9CB4 /* SearchTabVC.swift */,
+				D168FBEF1EBB1D30001648AF /* MyProfileVC.swift */,
+				D168FBEB1EBB1CEB001648AF /* MatchVC.swift */,
+				D168FBED1EBB1D09001648AF /* SettingsVC.swift */,
 				D1A1F9E21EA9375D00D2CFE2 /* Main.storyboard */,
-				D1A1F9E51EA9375D00D2CFE2 /* Assets.xcassets */,
 				D1A1F9E71EA9375D00D2CFE2 /* LaunchScreen.storyboard */,
 				D1A1F9EA1EA9375D00D2CFE2 /* Info.plist */,
 			);
@@ -236,7 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A1F9E91EA9375D00D2CFE2 /* LaunchScreen.storyboard in Resources */,
-				D1A1F9E61EA9375D00D2CFE2 /* Assets.xcassets in Resources */,
+				D19734401EBC096900C01309 /* Assets.xcassets in Resources */,
 				D1A1F9E41EA9375D00D2CFE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A1F9E11EA9375D00D2CFE2 /* SecondViewController.swift in Sources */,
+				D168FBF01EBB1D30001648AF /* MyProfileVC.swift in Sources */,
+				D168FBF21EBB1D85001648AF /* FeedVC.swift in Sources */,
+				D168FBF41EBB1D98001648AF /* GroupsVC.swift in Sources */,
 				D1A1F9DD1EA9375D00D2CFE2 /* AppDelegate.swift in Sources */,
-				D1A1F9DF1EA9375D00D2CFE2 /* FirstViewController.swift in Sources */,
+				D12C59771EBB3A0D008E9CB4 /* CommunityTabVC.swift in Sources */,
+				D168FBF61EBB1DA7001648AF /* EventsVC.swift in Sources */,
+				D10276111EBBEF650019C0F3 /* masterTabVC.swift in Sources */,
+				D168FBEC1EBB1CEB001648AF /* MatchVC.swift in Sources */,
+				D168FBEE1EBB1D09001648AF /* SettingsVC.swift in Sources */,
+				D12C59791EBB3A52008E9CB4 /* SearchTabVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +539,7 @@
 				D1A1FA051EA9375D00D2CFE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1A1FA061EA9375D00D2CFE2 /* Build configuration list for PBXNativeTarget "SeroMatchTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +548,7 @@
 				D1A1FA081EA9375D00D2CFE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1A1FA091EA9375D00D2CFE2 /* Build configuration list for PBXNativeTarget "SeroMatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +557,7 @@
 				D1A1FA0B1EA9375D00D2CFE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
